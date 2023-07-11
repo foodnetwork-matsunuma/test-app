@@ -8,7 +8,7 @@ const shopifyApiUrl = shopifyUrl + '/api/' + shopifyApiVer + '/graphql.json'
 const shopifyApiHeaders = {
   Accept: 'application/json',
   'Content-Type': 'application/graphql',
-  'X-Shopify-Storefront-Access-Token': ACCESS_TOKEN,
+  'X-Shopify-Storefront-Access-Token': process.env.ACCESS_TOKEN,
 }
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
