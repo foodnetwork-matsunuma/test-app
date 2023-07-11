@@ -5,7 +5,6 @@ const shopifyApiVer = '2023-04' // ※3ヶ月毎に更新
 const shopifyDomain = 'check.' + shopDomain
 const shopifyUrl = 'https://' + shopifyDomain
 const shopifyApiUrl = shopifyUrl + '/api/' + shopifyApiVer + '/graphql.json'
-const shopifyStoreFrontAccessToken = '88dfccbf288c8c539e65bd8ec617b720'
 const shopifyApiHeaders = {
   Accept: 'application/json',
   'Content-Type': 'application/graphql',
