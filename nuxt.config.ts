@@ -19,8 +19,4 @@ export default defineNuxtConfig({
     SHOPIFY_API_URL: shopifyApiUrl,
     SHOPIFY_API_HEADERS: shopifyApiHeaders
   },
-
-  modules: [
-    '@pinia/nuxt',
-  ],
 })
