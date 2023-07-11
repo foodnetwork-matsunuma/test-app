@@ -1,7 +1,4 @@
 <script setup>
-import { useDataStore } from '~/store'
-const dataStore = useDataStore()
-
 const { data } = await useFetch("/api/test")
 </script>
 
